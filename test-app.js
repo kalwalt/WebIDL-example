@@ -13,17 +13,3 @@ var Module = {
         b.doSomething();
     }
 };
-
-var f = new Module.Foo();
-f.setVal(200);
-alert(f.getVal());
-
-var b = new Module.Bar(123);
-b.doSomething();
-
-var instance;
-/*Module().then(module => {
-    instance = module;
-
-    console.log(instance)
-});*/
